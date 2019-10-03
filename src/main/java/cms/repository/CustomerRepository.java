@@ -1,4 +1,6 @@
 package cms.repository;
 
-public interface CustomerRepository {
+import cms.model.Customer;
+
+public interface CustomerRepository extends Repository<Customer> {
 }
